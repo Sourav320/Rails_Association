@@ -1,0 +1,14 @@
+<%= form_with model: auth do |page| %>
+  <div>
+    <%= page.label :Name %><br>
+    <%= page.text_field :name %>
+  </div>
+
+  <div>
+    <%= page.label :Phone_no %><br>
+    <%= page.number_field :Phone_no %><br>
+  </div>
+  <div>
+    <%= page.submit %>
+  </div>
+<% end %>
